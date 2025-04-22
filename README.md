@@ -1,14 +1,8 @@
 - Clone the repo
 
-```jsx
-git clone https://github.com/100xdevs-cohort-2/week-17-final-code
-```
 
 - npm install
-- Run postgres either locally or on the cloud (neon.tech)
 
-- Copy over all .env.example files to .env
-- Update .env files everywhere with the right db url
 - Go to `packages/db`
     - npx prisma migrate dev
     - npx prisma db seed
